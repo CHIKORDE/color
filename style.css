@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: box-inline;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(52, 46, 68);
+}
+.container {
+  text-align: center;
+  width: 25rem;
+  height: 25rem;
+  color: aliceblue;
+  max-width: 100%;
+}
+.btn1 {
+  padding: 20px;
+  border: none;
+  text-align: center;
+  font-size: large;
+  border-radius: 30%;
+  margin-top: 10rem;
+  background-color: black;
+  color: antiquewhite;
+}
+.btn:hover {
+  opacity: 0.5;
+}
+#copycode {
+  font-size: 25px;
+}
